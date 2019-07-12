@@ -1,0 +1,7 @@
+# command
+
+wc -l (または --line) hightemp.txt
+
+# result
+
+24 hightemp.txt

@@ -1,0 +1,8 @@
+# command
+
+split -l 6 -d hightemp.txt hightemp_split
+
+# result
+
+hightemp_split01 - hightemp_split04
+(元ファイルが計24行のため4分割)

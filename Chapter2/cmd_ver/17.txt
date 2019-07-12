@@ -1,0 +1,7 @@
+# command
+
+cat hightemp.txt | cut -f 1 | sort -u > hightemp_sort.txt
+
+# result
+
+hightemp17.txt

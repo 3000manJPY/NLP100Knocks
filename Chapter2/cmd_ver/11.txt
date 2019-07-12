@@ -1,0 +1,11 @@
+# command
+
+[1] sed -e 's/\t/ /g' ./hightemp.txt > ./hightemp_sed.txt
+[2] cat ./hightemp.txt | tr '\t' ' ' > ./hightemp_tr.txt
+[3] expand -t 1 ./hightemp.txt > ./hightemp_expand.txt
+
+# result
+
+[1] hightemp_sed.txt
+[2] hightemp_tr.txt
+[3] hightemp_expand.txt

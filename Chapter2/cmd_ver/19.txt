@@ -1,0 +1,7 @@
+# command
+
+cat hightemp.txt | cut -f 1 | sort | uniq -c | sort -r > hightemp19.txt
+
+# result
+
+hightemp19.txt

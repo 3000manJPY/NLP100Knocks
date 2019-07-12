@@ -1,0 +1,7 @@
+# command
+
+cat hightemp.txt | sort -k 3
+
+# result
+
+hightemp18.txt

@@ -1,0 +1,7 @@
+# command
+
+paste col1.txt col2.txt > merged_col.txt
+
+# result
+
+merged_col.txt

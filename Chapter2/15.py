@@ -20,7 +20,7 @@ def extract_tail_n(filepath: str, line_num: int):
     """
     with open(filepath, 'r') as f:
         file_content = f.readlines()
-        return file_content[-(line_num+1):-1]
+        return file_content[-line_num:]
 
 def main():
     in_filepath = './hightemp.txt'

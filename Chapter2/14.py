@@ -3,7 +3,7 @@
 
 import sys
 
-def extract_head_n(filepath: str, line_num: int):
+def extract_head_n(filepath: str, line_num: int) -> list:
     """
     入力ファイルの先頭から指定行数だけ抽出する関数
 
